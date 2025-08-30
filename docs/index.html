@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Besties Helping Hands</title>
+  <style>
+    body{font-family:system-ui, Arial, sans-serif; margin:0; padding:24px; background:#f7f7f8; color:#111}
+    .wrap{max-width:1000px; margin:0 auto}
+    h1{margin:0 0 4px 0}
+    p.sub{margin:0 0 16px 0; color:#555}
+    .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px}
+    figure{border:1px solid #e5e7eb; border-radius:16px; background:#fff; overflow:hidden; margin:0}
+    figcaption{padding:8px 10px; font-size:12px; color:#555; display:flex; justify-content:space-between}
+    img,video{width:100%; height:180px; object-fit:cover; display:block}
+    header{margin-bottom:20px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Besties Helping Hands</h1>
+      <p class="sub">Preview it here. If it loads here, it will load live.</p>
+    </header>
+
+    <section>
+      <h2>Video</h2>
+      <figure>
+        <video src="media/promo.mp4" controls preload="metadata"></video>
+        <figcaption><span>promo.mp4</span></figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Images</h2>
+      <div class="grid">
+        <figure>
+          <img src="media/hero.jpg" alt="Hero" />
+          <figcaption><span>hero.jpg</span></figcaption>
+        </figure>
+        <figure>
+          <img src="media/team.png" alt="Team" />
+          <figcaption><span>team.png</span></figcaption>
+        </figure>
+        <figure>
+          <img src="media/product-1.webp" alt="Product 1" />
+          <figcaption><span>product-1.webp</span></figcaption>
+        </figure>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
